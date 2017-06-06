@@ -1,0 +1,201 @@
+/** 
+  * By: Amer.Mohammed
+  * On: May 30, 2017.
+  * A simple small tic tac toe game web application made just for fun.
+  */
+div.header{
+	font-size: 50pt;
+	margin-top: 20px;
+	font-family: "Handlee", Papyrus, fantasy;
+	font-weight: 0;
+}
+div.underline{
+	width: 80%;
+	border: 2px solid gray;
+	border-radius: 2px;
+}
+fieldset{
+	border: 2px solid gray;
+	border-radius: 3px;
+	margin-top: 10px;
+	margin-left: 105px;
+	width: 81%;
+	height: 70%;
+	font-family: "Handlee", Papyrus, fantasy;
+	font-weight: 0;
+	text-align: center;
+}
+#p1_input{
+	margin-left: 10px;
+	width: 20%;
+}
+#p2_input{
+	margin-left: 5px;
+	width: 20%;
+}
+#p1{
+	width: 20%;
+	text-align: center;
+	border: 1px solid gray;
+}
+#p1_score{
+	width: 20%;
+	text-align: center;
+}
+#p2{
+	width: 20%;
+	text-align: center;
+	border: 1px solid gray;
+}
+#p2_score{
+	width: 20%;
+	text-align: center;
+}
+#score_board{
+	margin-left: 5px;
+}
+span.player_text{
+	font-size: 20pt;
+}
+#submit_button{
+	width: 40%;
+}
+div.container{
+	position: absolute;
+	margin-left: 4%;
+	margin-right: 5%;
+	width: 90%;
+	height: 80%;
+	font-family: "Handlee", Papyrus, fantasy;
+	font-weight: 0;
+}
+div.container2{
+	float: left;
+	height: 80%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+    width: 60%;
+    border-right: 2px solid gray;
+}
+#board{
+	table-layout: fixed;
+	margin-left: 175px;
+	margin-top: 75px;
+	width: 50%;
+	height: 70%;
+	font-size: 40pt;
+}
+#score{
+    float: left;
+	height: 80%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+    width: 30%;
+}
+#new_game{
+	-webkit-appearance: none;
+	width: 100%;
+	height: 10%;
+	margin-top: 90%;
+	margin-left: 30px;
+	font-family: "Handlee";
+	font-weight: 0;
+	font-size: 15pt;
+}
+#A0{
+	border-bottom: 2px solid gray;
+	border-right: 2px solid gray;
+	border-radius: 2px;
+	width: 33%;
+	height: 33%;
+}
+#A1{
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
+	border-bottom: 2px solid gray;
+	border-radius: 2px;
+	width: 33%;
+	height: 33%;
+}
+#A2{
+	border-left: 2px solid gray;
+	border-bottom: 2px solid gray;
+	border-radius: 2px;
+	width: 33%;
+	height: 33%;
+}
+#B0{
+	border-top: 2px solid gray;
+	border-right: 2px solid gray;
+	border-bottom: 2px solid gray;
+	border-radius: 2px;
+	width: 33%;
+	height: 33%;
+}
+#B1{
+	border: 2px solid gray;
+	border-radius: 2px;
+	width: 33%;
+	height: 33%;
+}
+#B2{
+	border-top: 2px solid gray;
+	border-left: 2px solid gray;
+	border-bottom: 2px solid gray;
+	border-radius: 2px;
+	width: 33%;
+	height: 33%;
+}
+#C0{
+	border-top: 2px solid gray;
+	border-right: 2px solid gray;
+	border-radius: 2px;
+	width: 33%;
+	height: 33%;
+}
+#C1{
+	border-left: 2px solid gray;
+	border-top: 2px solid gray;
+	border-right: 2px solid gray;
+	border-radius: 2px;
+	width: 33%;
+	height: 33%;
+}
+#C2{
+	border-left: 2px solid gray;
+	border-top: 2px solid gray;
+	border-radius: 2px;
+	width: 33%;
+	height: 33%;
+}
+#player1{
+	float: left;
+	margin-left: 120px;
+	text-align: center;
+	padding: 5px;
+	width: 30%;
+	border: 1px solid gray;
+	font-family: "Handlee", Papyrus, fantasy;
+	font-weight: 0;
+	background: lightgray;
+}
+#player2{
+	float: left;
+	margin-left: 35px;
+	text-align: center;
+	padding: 5px;
+	width: 30%;
+	border: 1px solid gray;
+	font-family: "Handlee", Papyrus, fantasy;
+	font-weight: 0;
+}
+div.footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 10px;
+	margin-top: 10px;
+	text-align: right;
+	font-family: "Handlee", Papyrus, fantasy;
+	font-weight: 0;
+}
